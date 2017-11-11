@@ -31,7 +31,7 @@ CSS should not be written inline
 ### JavaScript
 ```
 Javascript files should be loaded at the end of the html files
-The should be kept in a javascript or js folder
+They should be kept in a javascript or js folder
 Javascript should not be written inline
 
 ```
