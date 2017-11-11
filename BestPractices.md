@@ -24,6 +24,7 @@ The servers look for an index.html file when loading web pages. It's standard.
 ### CSS
 ```
 CSS files should be linked at the top of the html files
+They should be kept in a css folder
 CSS should not be written inline
 
 ```
