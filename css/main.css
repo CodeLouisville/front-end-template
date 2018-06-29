@@ -1,0 +1,25 @@
+body {
+    background-color: slategrey;
+}
+
+
+.main-nav,
+.nav,
+.main-footer,
+.advents {
+    display: flex;
+}
+
+.main-nav,
+.main-footer {
+    flex-direction: row;
+}
+
+.main-nav li {
+    background-color: lightblue;
+}
+
+.carousel img {
+    width: 100%;
+    height: 75%;
+}
