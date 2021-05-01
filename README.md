@@ -1,4 +1,4 @@
-# Travel-Website
+# Michelle and Lou's Awesome Travel Website
 
 ## Description
 ```
