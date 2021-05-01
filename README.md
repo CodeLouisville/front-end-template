@@ -1,8 +1,8 @@
-# Project_Name
+# Travel-Website
 
 ## Description
 ```
-A brief description of your project
+First Travel Website created for final project of Treehouse/BU Front End Development class
 
 ```
 
