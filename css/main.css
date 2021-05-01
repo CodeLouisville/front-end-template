@@ -1,5 +1,19 @@
-<h1 {
+* {
+    
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background-color:beige;
+    padding: 10px 15px;
+    border: 12px solid maroon;
+    margin: -8px -8px 20px;    
+}
+
+
+h1 {
     display: flex;
     flex-flow: column;
     color: maroon;
-}/html>
+}
