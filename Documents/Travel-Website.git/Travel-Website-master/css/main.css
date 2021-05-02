@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana; sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color:beige;
+    padding: 10px 15px;
+    border: 12px solid maroon;
+    margin: -8px -8px 20px;    
+}
+
+
+h1 {
+    display: flex;
+    flex-flow: column;
+    color: maroon;
+}
+
+ul{
+    
+    list-style-type: none;
+}
+
+</--      Adjust Images   _____>
+
+img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    
+}
+
+</--      Media Queries      -->
+
+@media only screen and (max-width: 400px) {
+    
+    
+}
+
+@media only screen and (min-width: 768px),
+    only screen and (min-width: 700px) and (orientation: landscape) {
+    
+    
+}
+@media only screen and (min-width: 1140px) {
+    
+    
+}
