@@ -3,28 +3,38 @@
 <head>
     <title>Michelle and Lou's Awesome Travel Adventures</title>
     <link rel="stylesheet" href="/css/main.css"
+    <script src="apps.js"></script>      
 </head>
 <body>
-    <header>
+    <section id="Home">
+    <header class="sticky" id="stickyNavbar">
     <h1>Michelle and Lou's Awesome Travel Adventures</h1>
+        <container>
         <nav>
-            <ul>
-                <li><a href="a">Home</a></li>
-                <li><a href="a">City</a></li>
+            <ul class="headerButtons">
+                <li><a id="Home">Home</a></li>
+                <li><a href="a">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbutton">City</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#">Nashville, TN</a>
+                            <a href="#">Cincinnati, OH</a>
+                </div></a></li>
+</div>
             </ul>
         </nav>
-        
-  
+       </container> 
    
     </header>
-        
-     <img src="img/Downtown%20Nashville.jpg" alt;"Downtown Nashville from bar and lounge in Drury Plaza Hotel Nashville Downtown.">   
-    <div>
-    </--      Introductory Content    -->
+    <div>    
+     
+    <!--      Introductory Content    -->
     <h2>About us</h2>
     <p>We are a middle class couple from Louisville, Kentucky. Our interests are pool, food, and shopping. Louis travels to pool tournaments around the country. He also helps install Diamond pool tables. I work a full-time clerical night job.</p>
     
-    </--      Downtown Nashville      -->
+    <!--      Downtown Nashville      -->
+    
+     <img src="img/Downtown%20Nashville.jpg" alt;"Downtown Nashville from bar and lounge in Drury Plaza Hotel Nashville Downtown." style="width:100%;height:auto;" class="banner"> 
     
     <h2>Downtown Nashville, Tn</h2>
     
@@ -35,29 +45,36 @@
     </h3>
 
 
-    </--       Nashville Attractions        -->
+    <!--       Nashville Attractions        -->
 
     <h4>Please click on the links below to find out about the hotel,food, museums, and other attractions we enjoyed in Nashville.
     </h4>
-    </--       Hotel Information     -->
+    <!--       Hotel Information     -->
     
-    <h4>For our stay, I chose the Drury Plaza Hotel Nasvhille Downtown. I compared several hotels online, but I liked the options and price of this hotel. 
+    <h4>For our stay, I chose the <a href="https://www.hotels.com/ho1125702240/drury-plaza-hotel-nashville-downtown-nashville-united-states-of-america/" target="_blank" >Drury Plaza Hotel Nasvhille Downtown</a>. I compared several hotels online, but I liked the options and price of this hotel.</h4>
+       <container>
+        <img src="img/DruryHotel1.jpg" alt;"Lounge area" style="width:50%;height:auto;" class="hotelimages"> 
+        <img src="img/DruryHotel2.jpg" alt;"Bathroom" style="width:50%;height:auto;" class="hotelimages"> 
+        </container>
+
          <h5>Hotel</h5>
-     </h4>   
+        
         <p>It included free breakfast, happy hour drinks, and most importantly in Nashville, had attached parking. The breakfast was excellent, but carrying it back to the room for privacy was a pain. You were given 3 drinks for happy hour that you redeemed in an attached area to the bar. I chose a margarita which was excellent. There were 2 other options which I cannot recall. My boyfriend rarely drinks, so no help there. The attached parking  garage was an additional $20.00 a night, but in Downtown Nashville, it was worth it.</p>
             
-        <p>I chose a king suite. It had a lounge area and bedroom separated by the large bathroom. The bathroom had a separate soaking tub and shower, as well as a toilet closet. The bed was comfortable and having separate areas was great since Lou wanted to sleep in. We had a small fridge, but to my extreme despair, no coffee maker.</p>
+        <p>I chose a king suite. It had a lounge area and bedroom separated by the large bathroom. The bathroom had a separate soaking tub and shower, as well as a toilet closet. The bed was comfortable and having separate areas was great since Lou wanted to sleep in. We had a small fridge, but to my extreme despair, no coffee maker. We had also wanted a balcony, but they do not have attached balconies. There is an outdoor lounge.</p>
     
-    </--         Restaurants        -->
+    <!--         Restaurants        -->
     <nav>
         <h5>Restaurants</h5>
+        <container>
         <ul>
-            <li><a href="a">Bob's Steak & Chop house</a></li>
-            <li><a href="a">Peg Leg Parker</a></li>
-            <li><a href="a">Five Daughters Bakery</a></li>
-            <li><a href="a">Frothy Monkey</a></li>
-            <li><a href="a">Jeni's Splendid Ice Creams</a></li>
+            <li><a href="https://bobs-steakandchop.com/nashville/" target="_blank" >Bob's Steak & Chop house</a><p>Most amazing steak I have ever had! The baked potato was huge and the special carrot they serve is delicious! Pricey, but worth it.</p></li>
+            <li><a href="https://peglegporker.com/"target="_blank">Peg Leg Parker</a><p>Casual and reasonably priced. Dry rubbed ribs were amazing and half a slab fed my boyfriend and me. We were not impressed by the side items we ordered, macaroni and cheese and green beans.</p></li>
+            <li><a href="https://fivedaughtersbakery.com/"target="_blank">Five Daughters Bakery</a><p>They have a 100 layer donut - enough said, right? It was filled with cream, which was too much for Louis, but my sweet tooth adored. They have a good selection including keto and glutton-free options. Be prepared for a line!</p></li>
+            <li><a href="https://frothymonkey.com/"target="_blank">Frothy Monkey</a><p>An early morning jaunt sent me in search of good coffee. I had an espresso and it was quite good. They did seem to have a varied selection, but I am traditional with my coffee.</p></li>
+            <li><a href="https://jenis.com/scoop-shops/jenis-nashville-farmers-market/"target="_blank">Jeni's Splendid Ice Creams</a><p>This was a indulgence at the Farmer's Market. Pricey, but so good. I had two scoops (that sweet tooth again!) and Louis had one. They have unusual flavors, but very creamy and amazing.</p></li>
         </ul>
+        </container>
         
         <h5>Museums</h5>
         <h5>Other Attractions</h5>
@@ -65,6 +82,6 @@
     </nav>
     
  </div>   
-    
+    </section>    
 </body>
 
