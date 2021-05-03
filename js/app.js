@@ -1,4 +1,3 @@
-
 /* Header Element*/
 
 var stickyNavbar = document.getElementById("stickyNavbar");
