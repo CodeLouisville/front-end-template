@@ -132,5 +132,110 @@ ul{
 @media only screen and (min-width: 1140px) {
     
     
+}* {
+    box-sizing: border-box;
+    }
+
+
+
+header {
+    background-color: beige;
+    border: 12px solid maroon;
+    text-align: center;
+    top: 0px;
+    height: auto;
+    width: 100%;
+}
+
+
+.sticky {
+    position: fixed;
+    top 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+    
+.intro {
+    margin: 0 auto;
+    width: 75%;
+}
+
+    
+div {
+    padding-top: 175px;
+    margin: auto;
+    }
+
+.intro {
+    display: flex;
+    justify-content: center;
+}
+
+
+.headerButtons,
+.dropbutton {
+  background-color: mistyrose;
+  border: none;
+  width: 80px;
+  text-align: center;
+  padding: 0;
+  text-decoration-color: black;
+  font-size: 16px; 
+  margin:auto;
+  
+    }
+
+.headerButtons:hover, focus {
+  background-color: rgb(210, 177, 240);    
+    text-decoration-color: black;
+    
+}
+
+
+h1 {
+    display: inline-block;
+    color: maroon;
+}
+
+ul {
+    
+    list-style-type: none;
+}
+
+/* --   Add Dropdown Button     -- */
+
+.dropbutton {
+  background-color: mistyrose;
+  color: mistyrose;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+    
+.dropbutton:hover, .dropbutton:focus {
+  background-color: rgb(210, 177, 240);
+}
+
+/* --   Media Queries     -- */
+
+@media only screen and (min-width: 1140px) {
+
+  .wrapper {
+    width: 1026px;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  nav a {
+    padding: 25px 1%;
+  }
+  
 }
 
