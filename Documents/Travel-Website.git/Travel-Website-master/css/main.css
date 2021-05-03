@@ -3,12 +3,53 @@
     font-family: Verdana; sans-serif;
 }
 
+/*           Set Nav Bar          */
+
 header {
-    text-align: center;
     background-color:beige;
-    padding: 10px 15px;
     border: 12px solid maroon;
-    margin: -8px -8px 20px;    
+    text-align: center;
+    top: 0px;
+    height: auto;
+    width: 100%;
+}
+
+#stickyNavbar {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top 0;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 60px;
+}
+
+div {
+    margin-top: auto;
+    position:
+}
+
+.headerButtons,
+.dropbutton {
+  background-color: mistyrose;
+  border: none;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;     
+}
+.headerButtons:hover, .dropbutton:focus {
+  background-color: rgb(210, 177, 240);    
+    
 }
 
 
@@ -23,14 +64,58 @@ ul{
     list-style-type: none;
 }
 
+<--        Add Dropdown Button   -->
+
+.dropbutton {
+  background-color: mistyrose;
+  color: mistyrose;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+    
+.dropbutton:hover, .dropbutton:focus {
+  background-color: rgb(210, 177, 240);
+}
+
+/*   Position Dropdown Content   */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Hidden Dropdown Content*/
+ 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(139,0,139);
+  min-width: 160px;
+  z-index: 1;
+}
+
+/*  Links in Dropdown  */
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
 </--      Adjust Images   _____>
 
-img {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
+.hotelimages {
     
+    float: right;
+    width: 100%;
+    height: auto;
 }
+
+
+ 
+
 
 </--      Media Queries      -->
 
